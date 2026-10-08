@@ -1,0 +1,5 @@
+Dataset ID,Dataset,Content,Source,Period,Granularity,Access status,Cleaning status,Used in version,Linked gap ID
+D-01,WESM settlement prices,Market clearing price per interval,WESM official market reports,2023-2025,Hourly,Have it,Needs timezone fix,v1,G-01
+D-02,Node locations and capacity,"Coordinates, depot and plant capacity",Company data / OpenStreetMap,Current,Static,Partial,Missing 3 node capacities,v1,G-01
+D-03,Demand history,Volume by node by day,To confirm,To confirm,Daily,Not started,,v1,G-02
+(edit me - delete),,,,,,,,,

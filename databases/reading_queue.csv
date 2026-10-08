@@ -1,0 +1,5 @@
+Paper,Priority,Why I need it,Found from,Found date,Status,Target gap,Promoted to papers.csv,Notes
+State-of-the-art baseline model for 2-echelon split delivery,High,Need the exact baseline my model is compared against,Google Scholar review search,2026-10-05,Not started,G-01,No,
+Recent WESM price / demand modelling study,High,Justifies using real market prices instead of synthetic demand,Supervisor suggestion,2026-10-05,Not started,G-01,No,
+Review paper on multi-echelon VRP,Medium,Fast way to find the 15 papers I actually need,Snowballing from Crevier 2007 references,2026-10-05,Not started,G-01 G-02 G-03,No,
+(placeholder row - delete),Low,,,,,,,

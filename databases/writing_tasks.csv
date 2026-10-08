@@ -1,0 +1,8 @@
+Task,Section,Type,Status,Due date,Word target,Linked gap ID,Blocked by,Notes
+Write problem statement,1.2 Problem statement,Writing,To do,2026-10-20,800,G-01,,One paragraph: why WESM data changes the model
+Build literature matrix from papers,2.1 Related work,Analysis,To do,2026-10-25,,G-01 G-02,,run: python3 scripts/thesis.py matrix
+Draw two-echelon network figure,3.1 Model description,Writing,To do,2026-11-05,,G-01,,Sketch then clean in draw.io
+Mathematical formulation,3.2 Formulation,Writing,To do,2026-11-15,1200,G-01,,"Variables, objective, constraints"
+Clean WESM price data,4.1 Data prep,Coding,Blocked,2026-11-20,,G-01,D-01 timezone fix,Blocked on dataset D-01
+Results table,4.3 Results,Writing,To do,2026-12-05,,G-03,R-001 R-002,Needs at least 3 logged runs
+(edit me - delete),,,,,,,,

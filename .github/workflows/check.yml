@@ -1,0 +1,31 @@
+name: thesis-check
+on:
+  push:
+    paths:
+      - "databases/**"
+      - "scripts/**"
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate databases
+        run: python3 scripts/thesis.py validate
+
+      - name: Build report, refs.bib and literature matrix
+        run: python3 scripts/thesis.py all
+
+      - name: Upload generated files
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: thesis-outputs
+          path: out/
+          if-no-files-found: warn

@@ -1,0 +1,6 @@
+key,value,note
+target_papers,40,how many papers must be logged before Ch2 is done
+min_relevance_to_cite,4,papers scoring at least this must appear in the literature review
+weekly_reading_target,5,papers to finish per week
+submission_date,2026-12-15,hard deadline used for countdown
+supervisor_meeting_day,Monday,weekly check-in

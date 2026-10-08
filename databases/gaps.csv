@@ -1,0 +1,5 @@
+Gap ID,Gap statement,Papers that prove it,My approach,Data needed,Feasibility,Status,Priority,Target chapter
+G-01,Multi-echelon split delivery is tested almost only on small synthetic instances; hardly any study uses real electricity-market price data,2,Build a two-echelon split-delivery model and run it on WESM settlement prices instead of generated numbers,"WESM daily prices, node locations, demand history",Medium,Confirmed,1,"Ch1 Problem, Ch3 Model"
+G-02,Demand is assumed deterministic; price-driven demand is ignored,1,Add scenario-based or price-dependent demand,Same WESM data plus evidence on price elasticity,Low-Medium,Candidate,2,"Ch2, Ch4"
+G-03,Compute time explodes on mid-size instances,1,"Matheuristic or column generation, benchmarked against exact solver on small cases",Instance generator,Medium,Backlog,3,Ch4 Results
+(edit me),,,,,,,,

@@ -1,0 +1,4 @@
+Run ID,Date,Model version,Solver,Instance (nodes x periods),Objective value,Solve time (s),MIP gap %,Outcome,Linked gap ID,Next action
+R-001,2026-10-05,v0 baseline no split delivery,Gurobi,20 x 7,,,,Not run yet,G-01,Add split-delivery arcs
+R-002,2026-10-05,v1 with split delivery,Gurobi,20 x 7,,,,Not run yet,G-01,Compare cost drop against R-001
+(edit me - delete),,,,,,,,,,
